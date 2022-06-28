@@ -1,0 +1,9 @@
+/* не забыть указать относительный путь ../fonts/ иначе не будет работать */
+@font-face {
+  font-family: 'Century';
+  src: url('../fonts/Century-Normal.woff2') format('woff2'),
+      url('../fonts/Century-Normal.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
